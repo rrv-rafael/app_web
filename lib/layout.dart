@@ -20,6 +20,7 @@ class SiteLayout extends StatelessWidget {
       ),
       body: const ResponsiveWidget(
         largeScreen: LargeScreen(),
+        mediumScreen: LargeScreen(),
         smallScreen: SmallScreen(),
       ),
     );
