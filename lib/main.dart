@@ -1,4 +1,5 @@
 import 'package:app_web/controllers/menu_controller.dart';
+import 'package:app_web/controllers/navigation_controller.dart';
 import 'package:app_web/layout.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -6,6 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   Get.put(MenuController());
+  Get.put(NavigationController());
   runApp(const MyApp());
 }
 

@@ -19,14 +19,12 @@ AppBar topAppBar(BuildContext context, GlobalKey<ScaffoldState> key) => AppBar(
           : IconButton(
               icon: const Icon(
                 Icons.menu,
-                // color: Colors.blue,
               ),
               onPressed: () {
                 key.currentState?.openDrawer();
               },
             ),
       elevation: 0,
-      // backgroundColor: Colors.white,
       title: Row(
         children: [
           Visibility(
