@@ -1,6 +1,5 @@
 import 'package:app_web/constants/style.dart';
 import 'package:app_web/routing/routes.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
